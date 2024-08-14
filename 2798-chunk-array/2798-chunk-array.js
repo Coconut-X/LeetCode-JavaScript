@@ -5,7 +5,8 @@
  */
 var chunk = function(arr, size) {
     var chunked=[]
-   for(var i=0;i<arr.length;)
+    let l=arr.length;
+   for(var i=0;i<l;)
    {
     chunked.push(arr.slice(i,i+size));
     i+=size;
